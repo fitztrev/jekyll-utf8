@@ -15,5 +15,5 @@ gem install jekyll-utf8
 Create a file at `_plugins/jekyll-utf8.rb` with the following contents:
 
 ```ruby
-require 'jekyll-utf8.rb'
+require 'jekyll-utf8'
 ```
