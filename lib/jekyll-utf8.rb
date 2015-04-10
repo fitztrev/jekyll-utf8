@@ -9,6 +9,7 @@ module Jekyll
       def self.webrick_options(config)
         options = _original_webrick_options(config)
         options[:MimeTypes].merge!({'html' => 'text/html; charset=utf-8'})
+        options[:MimeTypes].merge!({'xml'  => 'text/xml; charset=utf-8'})
         options
       end
 
